@@ -40,7 +40,7 @@ describe '#position_taken? in lib/position_taken.rb' do
     position = 0
     expect(position_taken?(board, position)).to be(true)      
     
-    position = 8
+    position = 9
     expect(position_taken?(board, position)).to be(true)
   end
 end
